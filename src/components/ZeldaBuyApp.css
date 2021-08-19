@@ -1,0 +1,199 @@
+:root {
+    --light-bg-color: #EEE;
+    --light-border: thin solid #BBB;
+    --dark-app-bg: rgb(31, 31, 31);
+    --dark-bg-color: rgb(53, 53, 53);
+    --dark-border: thin solid rgb(97, 97, 97);
+    --delete: rgb(241, 50, 50);
+    --confirm: rgb(112, 255, 93);
+}
+
+.light-app {
+    background-color: #FFF;
+}
+
+.light-items {
+    border: var(--light-border);
+    background-color: var(--light-bg-color);
+}
+
+.dark-app {
+    color: #FFF;
+    background-color: var(--dark-app-bg);
+}
+
+.dark-items {
+    border: var(--dark-border);
+    background-color: var(--dark-bg-color);
+}
+
+
+/* ZeldaHeader.js */
+.header {
+    padding: .4em;
+}
+
+.header i {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header h5 {
+    padding-left: .4em;
+    font-family: sans-serif;
+    cursor: default;
+}
+
+
+/*ZeldaBuyApp.js*/
+.app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.app-container img {
+    width: 100px;
+    filter: drop-shadow(2px 2px #EEE);
+}
+
+.cart-logo {
+    display: flex;
+    align-items: center;
+    padding: .6em;
+    margin-top: 1em;
+    border-radius: .2em;
+    cursor: pointer;
+}
+
+.cart-logo:hover {
+    background-color: var(--confirm);
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+}
+
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    padding: .6em;
+    border-radius: .3em;
+}
+
+.cart-container ul {
+    margin-bottom: 1em;
+}
+
+.cart-container h5 {
+    width: 100%;
+    padding: .3em;
+    text-align: center;
+    border-radius: .3em;
+}
+
+.delete-btn,
+.confirm-btn {
+    padding: .6em;
+    margin: 1em .2em 0;
+    border: var(--light-border);
+    border-radius: .2em;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: var(--delete);
+}
+
+.confirm-btn {
+    background-color: var(--confirm);
+}
+
+.confirm-btn:hover {
+    background-color:rgb(39, 206, 62);
+}
+
+
+/*ZeldaCart.js*/
+.cart-item {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    padding: .5rem;
+}
+
+.cart-item img {
+    width: 50px;
+}
+
+.cart-item h5 {
+    padding: .3em;
+    border: none;
+}
+
+@media (max-width: 350px){
+    .cart-item img {
+        width: 30px;
+    }
+}
+
+@media (max-width: 320px){
+    .cart-item img {
+        display: none;
+    }
+}
+
+
+/* ZeldaProduct.js */
+.product {
+display: flex;
+flex-direction: column;
+align-items: center;
+min-width: 10rem;
+padding: 1em;
+margin: .6em;
+border-radius: .3em;
+}
+
+.product:hover{
+    background-color: var(--confirm);
+    cursor: pointer;
+}
+
+.product b,
+.product h5 {
+    padding-top: .6em;
+    padding-bottom: .6em;
+}
+
+
+/* ZeldaConfirmation.js */
+.confirmation-msg {
+    width: 100%;
+    padding: 1em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    text-align: center;
+    background-color: rgba(86, 84, 194, 0.747);
+    cursor: pointer;
+}
+
+.confirmation-msg h3 {
+    width: 80%;
+    padding-bottom: .6em;
+    margin-left: auto;
+    margin-right: auto;
+}
