@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Agujerin/zeldaStore/static/css/main.de8302f2.chunk.css",
-    "main.js": "/Agujerin/zeldaStore/static/js/main.8552be81.chunk.js",
-    "main.js.map": "/Agujerin/zeldaStore/static/js/main.8552be81.chunk.js.map",
-    "runtime-main.js": "/Agujerin/zeldaStore/static/js/runtime-main.e9d342b1.js",
-    "runtime-main.js.map": "/Agujerin/zeldaStore/static/js/runtime-main.e9d342b1.js.map",
-    "static/js/2.7f2e3570.chunk.js": "/Agujerin/zeldaStore/static/js/2.7f2e3570.chunk.js",
-    "static/js/2.7f2e3570.chunk.js.map": "/Agujerin/zeldaStore/static/js/2.7f2e3570.chunk.js.map",
-    "static/js/3.b021dd18.chunk.js": "/Agujerin/zeldaStore/static/js/3.b021dd18.chunk.js",
-    "static/js/3.b021dd18.chunk.js.map": "/Agujerin/zeldaStore/static/js/3.b021dd18.chunk.js.map",
-    "index.html": "/Agujerin/zeldaStore/index.html",
-    "static/css/main.de8302f2.chunk.css.map": "/Agujerin/zeldaStore/static/css/main.de8302f2.chunk.css.map",
-    "static/js/2.7f2e3570.chunk.js.LICENSE.txt": "/Agujerin/zeldaStore/static/js/2.7f2e3570.chunk.js.LICENSE.txt",
-    "static/media/triforce-logo.9a930f0a.png": "/Agujerin/zeldaStore/static/media/triforce-logo.9a930f0a.png"
+    "main.css": "/zeldaStore/static/css/main.de8302f2.chunk.css",
+    "main.js": "/zeldaStore/static/js/main.8552be81.chunk.js",
+    "main.js.map": "/zeldaStore/static/js/main.8552be81.chunk.js.map",
+    "runtime-main.js": "/zeldaStore/static/js/runtime-main.338c5776.js",
+    "runtime-main.js.map": "/zeldaStore/static/js/runtime-main.338c5776.js.map",
+    "static/js/2.7f2e3570.chunk.js": "/zeldaStore/static/js/2.7f2e3570.chunk.js",
+    "static/js/2.7f2e3570.chunk.js.map": "/zeldaStore/static/js/2.7f2e3570.chunk.js.map",
+    "static/js/3.b021dd18.chunk.js": "/zeldaStore/static/js/3.b021dd18.chunk.js",
+    "static/js/3.b021dd18.chunk.js.map": "/zeldaStore/static/js/3.b021dd18.chunk.js.map",
+    "index.html": "/zeldaStore/index.html",
+    "static/css/main.de8302f2.chunk.css.map": "/zeldaStore/static/css/main.de8302f2.chunk.css.map",
+    "static/js/2.7f2e3570.chunk.js.LICENSE.txt": "/zeldaStore/static/js/2.7f2e3570.chunk.js.LICENSE.txt",
+    "static/media/triforce-logo.9a930f0a.png": "/zeldaStore/static/media/triforce-logo.9a930f0a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e9d342b1.js",
+    "static/js/runtime-main.338c5776.js",
     "static/js/2.7f2e3570.chunk.js",
     "static/css/main.de8302f2.chunk.css",
     "static/js/main.8552be81.chunk.js"
